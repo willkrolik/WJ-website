@@ -1,0 +1,17 @@
+
+.places li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.places {
+    max-width: 90%;
+    height: 300px;
+    column-width: 100px;
+    column-gap: 50px;
+    font-size: 12px;
+    margin: 0 auto;
+    column-count: 5;
+}

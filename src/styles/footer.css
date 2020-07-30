@@ -1,0 +1,39 @@
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+footer img {
+    max-height: 40px;
+}
+
+footer nav {
+    font-size: var(--text-medium);
+   
+}
+
+footer nav li {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0 20px;
+    border-right: 1px solid var(--black);
+
+}
+
+footer nav li:last-child{
+    border-right: none;
+}
+
+footer nav a {
+    font-weight: bold;
+    color: var(--black);
+    height: 100%;
+    display: inline-block;
+    border-bottom: 3px solid transparent;
+}
+
+footer nav a:hover, footer nav a.active {
+    border-bottom: 3px solid var(--medium-blue);
+
+}

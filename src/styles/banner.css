@@ -1,0 +1,166 @@
+
+.bannerContent,
+.lowerbannerContent,
+.map
+ {
+    position: relative;
+  }
+
+  .map {
+    margin-bottom: 60px;
+  }
+    
+  .bannerContent div,
+  .lowerbannerContent div,
+  .map p
+  {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    max-width: 30%;
+  }
+
+  
+
+  .lowerbannerContent div {
+    top: 2%;
+    
+  }
+
+  .map p{
+     top: 5%;
+     font-size: 24px;
+     font-weight: bold;
+     color: #005070;
+     max-width: 50%;
+    
+  }
+
+  .bannerContent.tall div {
+    max-width: 15%;
+  }
+
+  
+  .bannerContent div p {
+    font-size: var(--upper-banner-text);
+    line-height: 4.0rem;
+  }
+
+  .bannerContent.lighttext p,
+  .lowerbannerContent.lighttext p {
+    color: #fff;
+  }
+  
+  .lowerbannerContent div p {
+    font-size: var(--text-extra-medium);
+    line-height: 2.2rem;
+    color: #fff;
+  
+  }
+  .childBanner {
+    display: inline-block;
+  }
+  .childBanner img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .childBanner:first-of-type {
+    width: 60%;
+    position: relative;
+    border: 1px solid white;
+  }
+
+  .childBanner:first-of-type:after {
+    content: "";
+    position: absolute;
+    transform: rotate(135deg);
+    transform-origin: 0% 0%;
+    width: 40px;
+    border-top: 10px solid white;
+    height: 100%;
+
+
+  }
+  .childBanner:last-of-type {
+    width: 40%;
+  }
+  
+
+
+
+
+
+
+  .doubleBanner {
+    height: 330px;
+    position: relative;
+  }
+
+  .bannerContainer{
+    height: 330px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bannerContainer:first-of-type{
+    width: 70%;
+    clip-path: polygon(0 0, 100% 0%, 59% 100%, 0% 100%);
+}
+.bannerContainer:last-of-type{
+    width: 57%;
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%);
+    left: calc(100% - 57%);
+}
+.bannerInner img{
+    height: 330px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.aboutBannerContent {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  color: #fff;
+  width: 300px;
+}
+
+.bannerContainer:last-of-type .aboutBannerContent{
+  left: 50%;
+}
+
+.aboutBannerContent p {
+  font-size: 15px;
+}
+
+.aboutBannerContent p:first-of-type {
+  font-size: 28px;
+}
+
+.aboutBannerContent a,
+.aboutBannerContent button, {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+
+@supports (-ms-ime-align:auto){
+    .doubleBanner{
+        display: flex;
+    }
+    .bannerContainer,
+    .bannerContainer:first-of-type,
+    .bannerContainer:last-of-type{
+        width: 50% !important;
+        flex-basis: 50%;
+        position: static;
+        clip-path: none;
+    }
+    .bannerContainer:last-of-type{
+        margin-left: 2%;
+    }
+  }
+  
+  

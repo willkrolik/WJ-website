@@ -1,0 +1,179 @@
+
+html{
+    font-size: 10px;
+    font-family: "Gotham", sans-serif;
+  }
+
+ body {
+    font: normal 10px "Gotham", Arial, sans-serif;
+} 
+  
+  a {
+    text-decoration: none;
+    background-image: none;
+    text-shadow: none;
+    
+  }
+  
+  .white{
+  background-color:white;
+  }
+  
+  
+  .red{background-color:red;}
+  
+  .blue{background-color:blue;}
+  
+  .control-dots{display:none }
+  
+  .thumbs-wrapper{
+      display:none 
+  }
+  
+  .tcenter{text-align: center;}
+  
+  .gray{
+      background-color: gray
+  }
+  
+  .mlist{
+      width: 70%;
+      margin: auto;
+  }
+  
+    .Rectangler {
+      width: 320px;
+      height: 215px;
+      background-color: var(--dark-red);
+    }
+  
+    .Rectangleb {
+      width: 1024px;
+      height: 180px;
+      background-color: #63b3cb;
+      
+    }
+  
+    .Rectangleg {
+      width: 1024px;
+      height: 180px;
+      background-color: #777777;
+    }
+  
+    .Rectanglered {
+      width: 1024px;
+      height: 180px;
+      background-color:  #b7092e;
+    }
+  
+    .Rectangleblue {
+      width: 1024px;
+      height: 180px;
+      background-color: #1278a0;
+    }
+  
+    .centered {
+      max-width: 200px;
+      margin: auto;
+    }
+
+    .travelResearch {
+      padding: 40px 0;
+    }
+  
+    .travelResearch,
+    .travelResearch div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    
+    .travelResearch div {
+      width: 450px;
+      font-size: var(--text-medium);
+      align-items: flex-start;
+    }
+  
+    .travelResearch img {
+      margin: 0 15px 0 0;
+    }
+
+    .travelResearch .fancyNumber {
+        font-size: 85px;
+        line-height: 80px;
+        margin: 0 15px 0 0;
+    }
+
+    .travelResearch div:first-child .fancyNumber {
+        color: #1979a0;
+        font-weight: 900;
+
+    }
+
+    .travelResearch div:first-child .fancyNumber span {
+        color: #63b3cb;
+        font-weight: normal;
+    }
+
+    .travelResearch div:last-child .fancyNumber {
+        color: #e8184b;
+        font-weight: 900;
+    }
+
+    .travelResearch div:last-child .fancyNumber span {
+        color: #b7092e;
+        font-weight: normal;
+    }
+  
+    .travelResearch em {
+      display: block;
+    }
+
+    .pictureContent h2 {
+        width:100%;
+        text-align: center;
+        font-size: var(--text-extra-medium);
+        margin: 0 0 10px 0;
+    }
+
+    /* .Line {
+      width: 913px;
+margin-left: auto;
+margin-right: auto;
+height: 2px;
+border: solid 1px #cccccc;
+margin-top: 50px;
+margin-bottom: 75px;
+    } */
+
+    .greyLine {
+      height: 1px;
+      background-color: #cccccc;
+      width: calc(50% - 214px);
+    }
+
+
+    .row {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    
+   
+
+    .pictureContent h2.service {
+      width: auto;
+      display: inline-block;
+    }
+
+    .formatter {
+  font-size: 24px;
+    }
+
+    .thankYou {
+      text-align: center;
+      margin: 0 auto;
+      padding: 40px;
+      
+      }
+

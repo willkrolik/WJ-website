@@ -1,0 +1,17 @@
+.primary {
+    text-transform: uppercase;
+    background-color: var(--button-primary);
+    color: var(--button-primary-text);
+    border: 1px solid var(--button-primary);
+    font-size: var(--text-medium);
+    padding: 10px 15px;
+    border-radius: 5px;
+    
+}
+
+ a.primary {
+    
+    color: var(--button-primary-text) !important ;
+    display: inline-block;
+}
+

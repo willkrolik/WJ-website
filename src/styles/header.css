@@ -1,0 +1,118 @@
+  
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+header img {
+    height: 40px;
+}
+
+header img.mobileLogo {
+    display: none;
+}
+
+header nav {
+    font-size: var(--text-medium);
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 130px 0 0;
+}
+
+header nav li {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0 20px;
+}
+
+header nav li.logoItem img {
+    min-width: 138px;
+}
+
+header nav li.logoItem {
+    flex-basis: 50%;
+    padding-left: 175px;
+    
+}
+
+header nav a {
+    font-weight: bold;
+    color: var(--black);
+    height: 100%;
+    display: inline-block;
+    border-bottom: 3px solid transparent;
+    padding: 25px 0;
+}
+
+header nav a.logoLink {
+    padding: 0;
+    height: 40px;
+}
+
+header nav a:hover, 
+header nav a.active {
+    border-bottom: 3px solid var(--medium-blue);
+    
+}
+
+header nav a.logoLink:hover {
+    border-bottom: none;
+}
+
+header img.menuIcon {
+    height: 25px;
+    width: 25px;
+
+}
+
+header img.menuIcon {
+    display:none;
+}
+
+header nav li.menuContent {
+    display: none;
+}
+
+header nav li:hover + .menuContent,
+header nav li.active + .menuContent,
+.menuContent:hover {
+    display: block;
+    color: white;
+    position: absolute;
+    top: 100px;
+    z-index: 2;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+header nav li.menuContent a {
+    color: white;
+    padding-top: 0;
+    font-weight: normal;
+    
+}
+
+.menuFlex {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.menuFlex div {
+    padding: 30px 20px;
+    max-width: 33%;
+}
+
+.shopLink a {
+    color: #ea184a;
+}
+
+

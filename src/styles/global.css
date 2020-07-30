@@ -1,0 +1,70 @@
+:root{
+  --black: #000000;
+  --medium-blue: #1278a0;
+  --medium-red: #e8184b;
+  --blendy-blue: linear-gradient(99deg, #0c94b4, #055b7d);
+  --text-small: 1.0rem;
+  --text-medium: 1.4rem;
+  --text-extra-medium: 1.6rem;
+  --text-large: 1.8rem;
+  --text-extra-large: 2.0rem;
+  --button-primary: #e8184b;
+  --button-primary-text: #fff;
+  --banner-text: 2.8rem;
+  --upper-banner-text: 3.7rem;
+}
+
+@import "fonts.css";
+
+@import "main.css";
+
+@import "header.css";
+
+@import "marketingcontent.css";
+
+@import "picturecontent.css";
+
+@import "infonub.css";
+
+@import "footer.css";
+
+@import "button.css";
+
+@import "form.css";
+
+@import "banner.css";
+
+@import "places.css";
+
+@import "mobile.css";
+
+@import "colorcontent.css";
+
+
+.divider {
+  width: 50px;
+  height: 3px;
+  margin: 20px 0;
+}
+
+.divider.blue {
+  background-color: var(--medium-blue);
+}
+
+.divider.red {
+  background-color: var(--medium-red);
+}
+
+.bannerContent + .divider
+{
+  margin: 30px auto 0;
+}
+
+.divider.blue + article > .marketingContent:not(.fiveConnection),
+.divider.blue + .marketingContent:not(.threeConnection){
+  padding-top: 30px;
+}
+
+html * {
+  font-family: "Gotham", sans-serif !important;
+}

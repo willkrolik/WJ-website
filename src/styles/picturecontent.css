@@ -1,0 +1,65 @@
+article.event{
+  width: 63%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+
+article.event section{
+  display:flex;
+  align-items: center;
+  font-size: var(--text-large);
+  padding: 40px 0;
+  }
+  
+  article.event h3{
+    font-size: var(--text-large);
+  }
+  article.event section img{
+    width: 415px;
+    object-fit: contain;
+  }
+  
+  article.event section:nth-child(even) img{
+    order: 2;
+    margin-left: 20px;
+    
+  }
+  
+  article.event section:nth-child(odd) img{
+    margin-right: 20px;
+  }
+
+  .event .textContainer {
+    width: 60%;
+  
+  }
+  
+  .event .textContainer {
+    
+    width: 60%;
+
+  }
+
+  .audioLink {
+    display: block; 
+    background-color: #000000; 
+    background-image: url(https://assets.buzzsprout.com/assets/public_players/listen_on-109d5ef29be389e41e77dd2c26ae2ab0a9cc72a6703624602ab41d9387a85924.svg) !important; 
+    background-repeat: no-repeat; 
+    background-size: 1350px 28px;
+     border-radius: 5px; 
+     text-indent: -9000px; 
+     background-position: -182px 7px; 
+     height: 40px; 
+     width: 106px;
+  }
+  
+  .row {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .column {
+    flex: 33%;
+    
+  }

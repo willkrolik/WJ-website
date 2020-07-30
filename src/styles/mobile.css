@@ -1,0 +1,305 @@
+@media only screen and (max-width: 950px) {
+    :root { 
+        --banner-text: 1.5rem;
+    }
+
+    header img.menuIcon,
+    header img.mobileLogo {
+        display: block;
+
+    }
+
+    header nav li:hover + .menuContent,
+    header nav li.active + .menuContent {
+        display: none;
+    }
+
+    header li.logoItem {
+        display: none;
+    }
+
+    header {
+        height: 50px;
+        padding: 0;
+        justify-content: space-between;
+
+    }
+
+    header img.mobileLogo, header img.menuIcon{
+        margin: 5px 10px;
+        height: 30px;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header nav.open {
+        display: flex;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.85);
+        height: 100%;
+        width: 200px;
+        color: #ffffff;
+        z-index: 100;
+    }
+
+    header nav ul {
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+
+    header nav ul li {
+        display: block;
+        height: 26px;
+        line-height: 26px;
+        margin: 5px 0;
+    }
+
+    header nav li.selected {
+        background-color:rgba(255, 255, 255, 0.35);
+    }
+
+    header nav a {
+        color: #fff;
+    }
+
+    header nav li.selected + li.menuContent {
+        display: block;
+
+    }
+
+    .bannerContent img,
+    .lowerbannerContent img {
+        width: 100%;
+        object-position: 50% 50%;
+        object-fit: cover;
+    }
+
+    .bannerContent div,
+    .lowerbannerContent div,
+    .bannerContent.tall div {
+        max-width: 50%;
+        left: 5%;
+    }
+
+    .bannerContent div {
+        top: 5%;
+    }
+
+
+    .bannerContent.tall div {
+        top: 5%;
+    }
+
+    .bannerInner img{
+        height: 250px;
+        object-position: 29% 0;
+    }
+
+    .aboutBannerContent,
+    .bannerContainer:last-of-type .aboutBannerContent {
+        top: 10%;
+        left: 5%;
+    }
+
+    .bannerContent div p, 
+    .lowerbannerContent div p {
+        font-size: var(--text-medium);
+        line-height: 1.6rem;
+        font-weight: bold;
+      }
+    .lowerbannerContent div {
+        top: 2%;
+    }
+
+    .lowerbannerContent img {
+        height: 340px;
+    }
+
+    .lowerbannerContent div p {
+        font-weight: normal;
+    }
+
+    
+    .infonub {
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+
+    .infonub div {
+        flex-basis: 49%;
+        margin: 0;
+        max-width: 49%;
+        text-align: left;
+        padding: 20px;
+    }
+
+    .inLine div {
+        flex-basis: 100%;
+        margin: 0;
+        max-width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+
+
+    
+
+    article.event section{
+        
+        flex-direction: column;
+        align-items: center;
+        font-size: var(--text-large);
+      }
+
+    article.event section img {
+        object-position: 50% 50%;
+        object-fit: cover;
+        width: 85%;
+    }
+
+    article.event section:nth-child(even) img{
+        order: 0;
+        margin-left: 0;
+        
+      }
+      
+    article.event section:nth-child(odd) img{
+        margin-right: 0;
+        
+      }
+
+      .travelResearch,
+      .travelResearch div {
+          flex-direction: column;
+          width: 100%;
+          align-items: center;
+          
+      }
+
+      .travelResearch div p:last-child {
+          max-width: 250px;
+          text-align: center;
+      }
+
+      .marketingContent:nth-of-type(2){
+        margin-bottom: 15px;
+      }
+
+      footer nav li {
+          display: block;
+          height: 30px;
+          border-right: none;
+      }
+
+      .textContainer {
+          padding: 0 20px;
+          text-align: center;
+         
+      } 
+
+      .event .textContainer {
+        width: 100%;
+      }
+
+      .contactForm {
+          margin: 0 auto;
+          width: 300px;
+      }
+
+      .contactForm input,
+      .fancyCheckBox label,
+      .contactForm textarea{
+          width: 300px;
+      }
+
+      .textContainer .divider{
+            margin: 20px auto;
+      }
+
+      .greyLine {
+        height: 1px;
+        background-color: #cccccc;
+        width: calc(50% - 130px);
+      }
+
+      
+      .places li {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+      }
+    
+      .places {
+        max-width: 90%;
+        height: auto;
+        column-width: 100px;
+        column-gap: 50px;
+        font-size: 12px;
+        margin: 0 auto;
+        column-count: 2;
+        padding-bottom: 40px;
+      }
+
+      .doubleBanner{
+        display: block;
+        position: inherit;
+        height: auto;
+    }
+    .bannerContainer,
+    .bannerContainer:first-of-type,
+    .bannerContainer:last-of-type{
+        width: 100% !important;
+        flex-basis: 100%;
+        position: relative;
+        clip-path: none;
+        display: block;
+    }
+    .bannerContainer:last-of-type{
+        margin-left: 0%;
+        left: 0;
+        margin-top: 10px;
+    }
+
+    .bannerContainer{
+        height: 250px;
+    }
+
+
+    
+
+} 
+@media only screen and (max-width: 1199px) {
+        .lowerbannerContent div {
+            max-width: 50%; 
+        }
+        .lowerbannerContent div p {
+            font-size: 1.300rem;
+            
+        }
+    }
+
+@media only screen and (max-width: 400px) {
+    .bannerContent img {
+        height: 150px;
+
+    }
+
+    .lowerbannerContent div p {
+        font-size: 12px;
+    }
+
+    .smallDiv {
+        width: 50px;
+        height: 3px;
+        margin: 20px 0;
+        background-color: var(--medium-blue);
+        
+  }
+}

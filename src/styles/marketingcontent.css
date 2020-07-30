@@ -1,0 +1,52 @@
+.marketingContent,
+.bigBlurb {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 75px 50px;
+    text-align: center;
+    font-size: var(--text-extra-large);
+    
+  }
+
+  .bigBlurb p {
+    line-height: 40px;
+  }
+  
+  .marketingContent.oneConnection{
+    background-color: #777777;
+    color: #ffffff;
+  }
+  
+  .marketingContent.twoConnection{
+    background: var(--blendy-blue);
+    color: #ffffff;
+  }
+  
+  .marketingContent.threeConnection{
+    background-color: #b7092e;
+    color: #ffffff;
+  }
+
+  .marketingContent.fourConnection{
+    background-color: #63b3cb;
+    color: #ffffff;
+  }
+
+  .marketingContent.fiveConnection{
+    background-color: #1278a0;
+    color: #ffffff;
+  }
+  
+  .marketingContent:nth-of-type(2){
+    margin-bottom: 40px;
+  }
+  
+  .marketingContent p:nth-of-type(2) {
+    font-size: var(--text-medium);
+  
+  }
+
+  .bold {
+    font-weight: 900;
+  }
+  
