@@ -178,24 +178,7 @@ export default ({ location }) => (
 
   ]} />
   
-  <PictureContent picture="/gifs/CheersHaptic.gif" 
-  color="Blue"
-  content={[<h3>Agency Creative Support</h3>, 
-  <p>Our inhouse team of designers create a robust offering of event 
-    communications & onsite materials.</p>,
-  <h3>Customer Service</h3>, 
-  <p>We have agents that can answer all of your attendees’ program 
-  questions from trip extensions to meal requests. </p>]} />
-
-    <PictureContent picture="/images/ops.jpg" 
-    color="Blue"
-  content={[<h3>On-site Operations</h3>,
-  <p>Our staff offer day-of support to ensure everything runs   
-    smoothly and according to plan.</p>,
-  <h3>Post-event services</h3>,
-  <p>After your event we make sure the billing is accurate and 
-    detailed. We can also follow up with guest experience 
-  surveys to measure event success.</p> ]} />
+ 
 
     
   </article>
@@ -205,17 +188,17 @@ export default ({ location }) => (
   {/* <div className="Line"></div> */}
 
   
- <LowerBanner buttonText="shop now" 
+  <LowerBanner buttonText="Fras it up!" 
      classy="lowerbannerContent" 
-     image="/images/lower-banner@2x.jpg" 
+     image="/images/tv-frasier.jpg" 
       textSize="lowerBanner" 
       alt="Two people looking at a computer" 
-      content={[<p className="bannerTitle"><strong>Need More Frasier?</strong></p>,
-      <p> Episodes are released every Friday at 10 am. 
+      content={[<p className="bannerTitle"><strong>Need to Catch up on your Frasier?</strong></p>,
+      <p>You can listen to the show without watching, you can do whatever you want, we can't control you, but if you want to watch the show check out the platforms below:
 
       </p>,
 
-      <p>Fraiser can be enjoyed on the following platforms:</p>
+      
      
       
       ]}/>

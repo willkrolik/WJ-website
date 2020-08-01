@@ -8,8 +8,8 @@ import Banner from "../components/banner"
 import LowerBanner from "../components/lowerbanner"
 export default ({ location }) => ( 
   <Layout location={location}>
-
-    <Banner buttonText="contact us" 
+    <img src="/images/WJ-Frasier Banner1.jpg" />
+    {/* <Banner buttonText="contact us" 
     
     pageLink="/contact"
     buttonText="Instagram" 
@@ -17,22 +17,20 @@ export default ({ location }) => (
     color="color:red" image="/images/WJ-Frasier Banner1.jpg"  
     className="down"
     alt="woman looking at gift cards"
-    content={[<p>Follow us on Instagram!</p>]}/>
+    content={[<p>Follow us on Instagram!</p>]}/> */}
 
-    <div className="divider blue"> </div>
-    <MarkContent classy="marketingContent" content="Through discovery, analysis, and project development,
-    we'll build the perfect solution to meet your needs."/>
+
+    <MarkContent classy="marketingContent" content="Follow us on Twitter and Instagram for more content"/>
 
 
     <ColorContent classy="marketingContent threeConnection" 
-    content={[<p>We design and deliver a personalized & relevant experience.</p>,
+    content={[<p>All the robes you need</p>,
 
-    <p>Build customer loyalty with personalized communications, 
-    and the largest offering of rewards in the market.</p>]}
+    ]}
     />
     
     
-    <div className="infonub inLine">
+    {/* <div className="infonub inLine">
 
     
     <Infonub picture="/images/trophy-medium@2x.png" 
@@ -76,32 +74,26 @@ export default ({ location }) => (
     is performing. "
      />
 
-    </div>
+    </div> */}
     
     
   <article className="event">
   
-  <PictureContent picture="/images/welcome-max.png" 
+  <PictureContent picture="/images/twitter.png" 
   id="consumer-loyalty"
   alttext="A woman carrying a rug"
   color="red"
-  content={[<p><strong>Build consumer loyalty</strong> with compelling 
-    programs. Make it quick and easy 
-    to turn points into rewards with our 
-    intuitive, responsive platform. </p>]}/>
+  content={[<p>Where we tweet all our great ideas </p>]}/>
     
     
-  <PictureContent picture="/images/construction.png" 
+  <PictureContent picture="/images/instagram.png" 
   id="loyalty-sales"
   alttext="construction worker shaking hands"
   color="red"
-  content={[<p><strong>B2B: Drive sales and brand loyalty</strong> with 
-    incentives for dealers and distributors</p>,
-  <p>Reward dealers to sell your product over 
-    any others with thousands of reward options.</p>]}
+  content={[<p>Pictures of Things!</p>]}
     />
   
-  <PictureContent picture="/gifs/Nike_TokenSpin.gif" 
+  {/* <PictureContent picture="/gifs/Nike_TokenSpin.gif" 
   id="health-wellness"
  alttext="Looking at nike image on a phone"
  color="red"
@@ -109,7 +101,7 @@ export default ({ location }) => (
     with incentives for participation, event 
     completion, and achievement milestones.</p> ]}
     
-   />
+   /> */}
    
    </article>
     

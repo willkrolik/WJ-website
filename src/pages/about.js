@@ -173,17 +173,17 @@ export default ({ location }) => (
 
     </div>
     
-    <LowerBanner buttonText="shop now" 
+    <LowerBanner buttonText="Fras it up!" 
      classy="lowerbannerContent" 
-     image="/images/lower-banner@2x.jpg" 
+     image="/images/tv-frasier.jpg" 
       textSize="lowerBanner" 
       alt="Two people looking at a computer" 
-      content={[<p className="bannerTitle"><strong>Online Shop</strong></p>,
-      <p>The InComm Incentives Shop is our simplest solution for purchasing gift cards, physical or digital, in bulk. Our Shop lets you select from a large offering of gift card brands and purchase them in only a few steps. Discount options are also available on select brands.
+      content={[<p className="bannerTitle"><strong>Need to Catch up on your Frasier?</strong></p>,
+      <p>You can listen to the show without watching, you can do whatever you want, we can't control you, but if you want to watch the show check out the platforms below:
 
       </p>,
 
-      <p>No contracts, no minimums, no IT involvement.</p>
+      
      
       
       ]}/>
