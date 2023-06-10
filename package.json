@@ -14,7 +14,7 @@
     "deploy": "gatsby-plugin-s3 deploy -y"
   },
   "dependencies": {
-    "gatsby": "^2.16.1",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-s3": "^0.3.2",
     "gatsby-plugin-sharp": "^2.3.10",
